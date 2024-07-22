@@ -1,4 +1,15 @@
 {
+  "name": "new_demo",
+  "version": "1.0.0",
+  "description": "",
+  "type":"module", 
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "swap-case": "^3.0.3"
   }

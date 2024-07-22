@@ -1,8 +1,3 @@
-const uppre_case= require("swap-case").uppre_case;
+import {swapCase} from "swap-case";
 
-function greet(name){
-    console.log(uppre_case(`hey there ${name}`));
-}
-
-greet("reetam");
-module.exports= greet;
+console.log(swapCase("reetam"));
